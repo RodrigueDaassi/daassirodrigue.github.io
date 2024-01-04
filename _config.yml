@@ -1,0 +1,11 @@
+title: Rodrigue Daassi
+email: rodrigue.daassi@biopterre.com
+description: Researcher
+url: "https://rodriguedaassi.com/"  # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: Rodas036
+github_username:  RodrigueDaassi
+theme: jekyll-theme-minimal
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
