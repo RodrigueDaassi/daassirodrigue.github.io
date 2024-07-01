@@ -1,17 +1,13 @@
 title: Rodrigue Daassi
 email: rodrigue.daassi@biopterre.com
 description: Researcher
-url: "https://rodriguedaassi.com/"  # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rodriguedaassi.github.io"
+baseurl: "/Rodrigue-Daassi" # Notez le chemin ici
 twitter_username: Rodas036
 github_username: RodrigueDaassi
-youtube_username: rodriguedaassi9641  # Added YouTube username
-linkedin_url: "https://www.linkedin.com/in/RodrigueDaassi/"  # Added LinkedIn profile
-
-# Theme and markdown settings
+youtube_username: rodriguedaassi9641
 theme: jekyll-theme-minimal
 markdown: kramdown
-
-# Plugins
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-feed
