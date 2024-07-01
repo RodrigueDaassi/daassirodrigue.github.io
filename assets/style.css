@@ -167,10 +167,18 @@ footer a{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10px; /* Ajustez cette valeur pour la taille souhaitée */
-  height: auto;
-  border-radius: 50%; /* Pour un effet arrondi, comme une photo d'identité */
+  width: 150px;  /* Taille fixe en pixels */
+  max-width: 100%;  /* Ne dépasse jamais 100% de la largeur du conteneur parent */
+  height: auto;  /* Conserve le ratio de l'image */
+  border-radius: 0%;
   margin-bottom: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  /* Image */
+  #imgID {
+    width: 100px;  /* Réduire la taille sur les petits écrans */
+  }
 }
 
 #Homepage{
@@ -526,7 +534,7 @@ a:hover.button {
   .rightfoot {
     margin-right: 2%;
     width: 50%;
-    text-align: right;
+    text-align: right.
   }
 
   footer ul li {
@@ -539,27 +547,27 @@ a:hover.button {
   }
 
   footer a{
-    font-size: 13px;
+    font-size: 13px.
   }
 
 
   h1 {
-    font-size: 24px;
+    font-size: 24px.
   }
   h2 {
-    font-size: 18px;
+    font-size: 18px.
   }
   p{
-    font-size: 15px;
-    line-height: 1.7em;
+    font-size: 15px.
+    line-height: 1.7em.
   }
 
   ul {
-  padding-left: 20px;
+  padding-left: 20px.
   }
 
   li {
-    line-height: 1.8cm;
+    line-height: 1.8cm.
   }
 }
 
@@ -567,241 +575,241 @@ a:hover.button {
 
 @media screen and (max-width: 835px) {
   .npages{
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 130px;
+    margin-left: 5%.
+    margin-right: 5%.
+    padding-bottom: 130px.
   }
 
 
   .Menuleft h1 {
-    font-size: 16px;
+    font-size: 16px.
   }
 
   .Menuright {
-    margin-top: 22px;
+    margin-top: 22px.
   }
 
   .Menuright a {
-    margin-left: 10px;
-    font-size: 14px;
+    margin-left: 10px.
+    font-size: 14px.
   }
 
   .Homeleft h1 {
-    font-size: 18px;
+    font-size: 18px.
   }
 
   .Homeleft h2 {
-    font-size: 16px;
+    font-size: 16px.
   }
 
   .Homeleft a {
-    font-size: 15px;
+    font-size: 15px.
   }
 
   .leftfoot {
-    margin-left: 2%;
-    width: 42%;
-    text-align: justify;
+    margin-left: 2%.
+    width: 42%.
+    text-align: justify.
   }
 
   .centerfoot {
-    width: 2%;
-    text-align: justify;
+    width: 2%.
+    text-align: justify.
   }
 
   .rightfoot {
-    margin-right: 2%;
-    width: 52%;
-    text-align: right;
+    margin-right: 2%.
+    width: 52%.
+    text-align: right.
   }
 
   footer ul li {
-      line-height: 0.9em;
+      line-height: 0.9em.
   }
 
   footer p{
-    font-size: 13px;
-    line-height: 1.8em;
+    font-size: 13px.
+    line-height: 1.8em.
   }
 
   footer a{
-    font-size: 13px;
+    font-size: 13px.
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 20px.
   }
   h2 {
-    font-size: 16px;
+    font-size: 16px.
   }
   p{
-    font-size: 15px;
-    line-height: 1.5em;
+    font-size: 15px.
+    line-height: 1.5em.
   }
 }
 
 
 
 @media screen and (max-width: 700px) {
-  .mobileShow {display: none;}
-  #LscreenShow {display: inline;}
-  #mobileMenu {display:block;}
+  .mobileShow {display: none.}
+  #LscreenShow {display: inline.}
+  #mobileMenu {display:block.}
 
   /*Menu*/
   .Menu {
-    position: relative;
-    display: none;
-    width: 100%;
+    position: relative.
+    display: none.
+    width: 100%.
   }
 
   .Menuleft {
-    float: left;
-    margin-left: 3%;
-    width: 97%;
+    float: left.
+    margin-left: 3%.
+    width: 97%.
   }
 
   .Menuright {
-    float: left;
-    margin-left: 3%;
-    width: 97%;
-    margin-top: 0px;
+    float: left.
+    margin-left: 3%.
+    width: 97%.
+    margin-top: 0px.
   }
 
   .Menuright a {
-    float: none;
-    display: block;
-    margin-bottom: 0px;
-    /*float: left;*/
-    padding: 3px;
-    font-size: 14px;
-    text-align: left;
-    border: 0px;
+    float: none.
+    display: block.
+    margin-bottom: 0px.
+    /*float: left.*/
+    padding: 3px.
+    font-size: 14px.
+    text-align: left.
+    border: 0px.
   }
 
   .Menuleft h1 {
-    padding: 0px;
-    margin-top: 10px;
-    margin-bottom: 3px;
-    float: left;
-    color: white;
-    font-size: 16px;
-    display: inline;
-    font-family: 'Arial', 'Helvetica', 'Verdana', sans-serif;
+    padding: 0px.
+    margin-top: 10px.
+    margin-bottom: 3px.
+    float: left.
+    color: white.
+    font-size: 16px.
+    display: inline.
+    font-family: 'Arial', 'Helvetica', 'Verdana', sans-serif.
   }
 
 
   header a.icon {
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    width: 100%; /* Five links of equal widths */
-    text-align: center;
-    background-color: #206eAB;
-    border-top: 1px solid #fff;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #ccc;
-    display: block;
+    padding: 10px.
+    color: white.
+    text-decoration: none.
+    font-size: 14px.
+    width: 100%. /* Five links of equal widths */
+    text-align: center.
+    background-color: #206eAB.
+    border-top: 1px solid #fff.
+    border-left: 1px solid #fff.
+    border-right: 1px solid #ccc.
+    display: block.
   }
 
   header a.icon:hover {
-    background-color: #CABA10;
-    color: white;
+    background-color: #CABA10.
+    color: white.
   }
 
 
   footer p{
-    font-size: 12px;
+    font-size: 12px.
   }
 
   footer a{
-    font-size: 12px;
+    font-size: 12px.
   }
 
   .leftfoot {
-    float: none;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+    float: none.
+    margin-left: 5%.
+    margin-right: 5%.
+    width: 90%.
   }
 
   .rightfoot {
-    margin-right: 5%;
-    margin-left: 5%;
-    width: 90%;
-    text-align: justify;
+    margin-right: 5%.
+    margin-left: 5%.
+    width: 90%.
+    text-align: justify.
   }
 
   #homepage{
-    min-height: 2000px;
-    padding-bottom: 100px;
+    min-height: 2000px.
+    padding-bottom: 100px.
   }
 
   .Homeleft {
-    float:none;
-    margin-left: 5%;
-    width: 90%;
+    float:none.
+    margin-left: 5%.
+    width: 90%.
   }
 
   .Homeright {
-    float:none;
-    margin-right: 5%;
-    margin-left: 5%;
-    width: 90%;}
+    float:none.
+    margin-right: 5%.
+    margin-left: 5%.
+    width: 90%.}
 
   /* Image */
   #imgID {
-    display: block;
-    width: 50%;
-    float: center;
+    display: block.
+    width: 50%.
+    float: center.
   }
 
   a {
-    font-size: 15px;
+    font-size: 15px.
   }
 
   h1 {
-    font-size: 20px;
-    align: 'center';
+    font-size: 20px.
+    align: 'center'.
   }
   h2 {
-    font-size: 16px;
-    align: 'center';
+    font-size: 16px.
+    align: 'center'.
   }
 
   p, strong{
-    font-size: 14px;
+    font-size: 14px.
   }
 
 
   li {
-    margin: 0;
-    line-height: 2cm;
+    margin: 0.
+    line-height: 2cm.
   }
 
 
   .npages{
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 300px;
+    margin-left: 5%.
+    margin-right: 5%.
+    padding-bottom: 300px.
   }
 
   .contentresearch{
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 0%.
+    margin-right: 0%.
   }
 
 
 
   #research2 li{
-     font-size: 14px;
+     font-size: 14px.
    }
 
    /* Button*/
    a.button {
-     font-size: 12px;
-     padding: 0px  6px 1px 6px;
-     margin: 0px;
+     font-size: 12px.
+     padding: 0px  6px 1px 6px.
+     margin: 0px.
    }
 }
 /* CSS */
