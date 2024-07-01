@@ -167,12 +167,10 @@ footer a{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  border-radius: 0%;
-  float: center;
+  width: 150px; /* Ajustez cette valeur pour la taille souhaitée */
+  height: auto;
+  border-radius: 50%; /* Pour un effet arrondi, comme une photo d'identité */
   margin-bottom: 15px;
-  border-radius: 0%
-
 }
 
 #Homepage{
