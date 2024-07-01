@@ -3,9 +3,15 @@ email: rodrigue.daassi@biopterre.com
 description: Researcher
 url: "https://rodriguedaassi.com/"  # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Rodas036
-github_username:  RodrigueDaassi
+github_username: RodrigueDaassi
+youtube_username: rodriguedaassi9641  # Added YouTube username
+linkedin_url: "https://www.linkedin.com/in/RodrigueDaassi/"  # Added LinkedIn profile
+
+# Theme and markdown settings
 theme: jekyll-theme-minimal
 markdown: kramdown
+
+# Plugins
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
