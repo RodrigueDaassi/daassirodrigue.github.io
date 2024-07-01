@@ -11,6 +11,3 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-feed
-collections:
-  hobbies:
-    output: true
