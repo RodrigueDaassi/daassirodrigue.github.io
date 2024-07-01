@@ -154,9 +154,10 @@ footer a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 150px; /* Ajustez la taille ici */
-  height: auto; /* Garde le ratio de l'image */
+  width: 150px; /* Fixe la largeur de l'image */
+  height: 150px; /* Fixe la hauteur de l'image */
   border-radius: 50%; /* Rend l'image circulaire */
+  float: center;
   margin-bottom: 15px;
 }
 
@@ -807,9 +808,9 @@ a:hover.button {
   #imgID {
     display: block;
     width: 150px; /* Ajustez la taille ici */
-    height: auto; /* Garde le ratio de l'image */
+    height: 150px; /* Garde le ratio de l'image */
     border-radius: 50%; /* Rend l'image circulaire */
-    margin-bottom: 15px;
+    float: center;
   }
 
   a {
