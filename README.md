@@ -1,2 +1,2 @@
 # My personal website
-[www.rodriguedaassi.com](https://rodriguedaassi.com)
+[https://rodriguedaassi.github.io/Rodrigue-Daassi/](https://rodriguedaassi.github.io/Rodrigue-Daassi/)
